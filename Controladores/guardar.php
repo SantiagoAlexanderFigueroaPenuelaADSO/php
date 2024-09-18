@@ -4,6 +4,7 @@ require_once(__DIR__ . "/../libs/Database.php");
 require_once(__DIR__ . "/../libs/Modelo.php");
 include_once("../clases/Aprendiz.php");
 
+
 $nombre = isset($_POST['first_name']) ? 
 ($_POST["first_name"] != "" ? $_POST["first_name"]  : false) : false;
 
